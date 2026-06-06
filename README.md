@@ -12,8 +12,8 @@ The assignment focuses on building foundational components for Vulnerability and
 
 ## Repository Structure
 
-
-
+```text
+platform-engineer-assignment/
 ├── README.md
 ├── ANSWERS.md
 │
@@ -29,6 +29,7 @@ The assignment focuses on building foundational components for Vulnerability and
     ├── variables.tf
     ├── outputs.tf
     └── terraform.tfvars.example
+```
 
 
 ## Task 1 – Reusable EC2 Module
@@ -77,10 +78,9 @@ Topics covered include:
 ## Validation
 
 The configurations were validated using:
-
-
 terraform init
 terraform validate
+terraform fmt -recursive
 
 
 ## Notes
